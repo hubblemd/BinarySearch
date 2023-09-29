@@ -14,8 +14,7 @@ void solve()
 {
     int n,m;cin>>n>>m;
     vector<int>city(n),tower(m);
-    for(int i=0;i<n;i++) cin>>city[i];
-    for(int i=0;i<m;i++) cin>>tower[i];
+  
     
     int low=0,high=2e9,ans=0;
     while(low<=high)
