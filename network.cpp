@@ -8,23 +8,7 @@
 
 using namespace std;
 
-bool madhav(int mid,vector<int>&city,vector<int>&tower,int n,int m)
-{
-    int cities=0,j=0,i=0;
-       
-           while(j<m && i<n)
-          {
-               if( abs( tower[j] - city[i] ) <= mid)
-               {
-                  i++;
-                  cities++;
-               }
-               else j++; //break;
-           }
-          
-       
-       return cities>=n;
-}
+
 
 void solve() 
 {
