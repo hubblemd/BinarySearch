@@ -41,7 +41,7 @@ signed main()
     {
         solve();
     }
-cout<<t<<endl;
+
     return 0;
 }
 /*this will be done to check how to reflect changes on git through vs*/
